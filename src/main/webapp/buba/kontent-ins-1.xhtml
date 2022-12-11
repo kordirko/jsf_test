@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:p="http://java.sun.com/jsf/html"
+>
+
+
+<ui:composition>
+    <p:panelGrid>
+        <p:commandButton value="Run Me 1"
+                immediate="true" action="#{kontent1Controller.runMe}"
+        />
+    </p:panelGrid>
+
+    <ui:include src="progress-dialog.xhtml"/>
+
+</ui:composition>
+
+</html>
